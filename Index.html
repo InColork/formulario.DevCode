@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio formulario</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Cadastro</legend>
+        <label>Nome
+            <br>
+            <input name="Nome" type="text" required autocomplete="username" placeholder="Joãozinho...">
+        </label>
+        <br><br>
+
+        <label>Email
+            <br>
+            <input name="Email" type="email" required placeholder="joãozinho@gmail.com...">
+        </label>
+        <br><br>
+
+        <label>Idade
+            <br>
+            <input name="Idade" type="number" min="12" max="120" required placeholder="min.12">
+        </label>
+        <br><br>
+
+        <label>Data de Nacimento
+            <br>
+            <input name="Data" type="date">
+        </label>
+        <br><br>
+
+        <label>Onde você possui conta?
+            <br>
+            <input type="checkbox">
+            <label>Instagram</label>
+            <input type="checkbox">
+            <label>Facebook</label>
+            <input type="checkbox">
+            <label>Youtube</label>
+        </label>
+        <br><br>
+
+        <label>Sexo
+            <br>
+            <input type="radio" name="base" value="masculino">
+            <label>Masculino</label>
+            <input type="radio" name="base" value="feminino" required>
+            <label>Feminino</label>
+        </label>
+        <br><br>
+
+        <label>Cor dos olhos
+            <input type="color" required>
+        </label>
+        <br><br>
+
+        <label>Biografia
+            <br>
+            <textarea placeholder="Escreva Mais Sobre Você..."></textarea>
+        </label>
+        <br><br>
+
+        <label>Foto do perfil
+            <br>
+            <input type="file" accept="image/*" required>
+        </label>
+        <br><br>
+
+        <label>Telefone
+            <br>
+            <input type="tel" required placeholder="(55) 55 55555-5555">
+        </label>
+        <br><br>
+
+        <label>Link do Perfil do Facebook
+            <br>
+            <input type="url" placeholder="https://www.facebook...">
+        </label>
+        <br><br>
+
+        <label>Senha
+            <br>
+            <input type="password" min="6" max="8" required placeholder="vai de você">
+        </label>
+        <br><br>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar Dados</button>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
